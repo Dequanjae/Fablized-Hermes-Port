@@ -1,0 +1,14 @@
+name: fablize
+version: 2.1.1-hermes.1
+description: "Hermes-native port of fablize task routing and evidence-based verification hooks."
+author: fivetaku (Hermes port)
+license: MIT
+manifest_version: 2
+api_version: 1
+tags:
+  - workflow
+  - verification
+provides_hooks:
+  - pre_llm_call
+  - post_tool_call
+  - pre_verify
